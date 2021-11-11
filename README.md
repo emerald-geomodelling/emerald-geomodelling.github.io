@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Open source projects published by [Emerald Geomodelling](https://www.emerald-geomodelling.com/)
 
-You can use the [editor on GitHub](https://github.com/emerald-geomodelling/emerald-geomodelling.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## data management
+### Data format parses
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* [libsgfdata](https://github.com/emerald-geomodelling/libsgfdata) - Parser for data from geotechnical field investigations in the data format specified in Report 3:2012E from the Swedish Geotechnical Society, with support for additionally fields / extensions from [Geotech AB](https://static1.squarespace.com/static/565c5cc1e4b05079e4c0fcfb/t/587c984bbf629abac09d265f/1484560476906/6-SWE-CPT-LOG-v5.xx.pdf). This includes TOT and CPT files, used by e.g. [NADAG](http://geo.ngu.no/kart/nadag/). 
+* [libaarhusxyz](https://github.com/emerald-geomodelling/libaarhusxyz) Parser for the Aarhus Workbench XYZ format for geophysical data.
+* [libnadagclient](https://github.com/emerald-geomodelling/libnadagclient) Client library for the geotechnical database at https://geo.ngu.no/kart/nadag/ comforming to the [libsgfdata](https://github.com/emerald-geomodelling/libsgfdata) datamodel.
 
-### Markdown
+### Database access
+* [PandasIO](https://github.com/emerald-geomodelling/PandasIO) Reimplementation of pandas.DataFrame.to_sql and pandas.read_sql_query with more control over the SQL side of things such as adding support for primary and foreign keys as well serializing extra columns to JSON.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Processing libraries
+* [EmeraldTriangles](https://github.com/emerald-geomodelling/EmeraldTriangles) Transformations and manipulation of 2d triangle meshes, including refining and merging of meshes as well as import and export to various formats.
+* [emerald-shapeutils](https://github.com/emerald-geomodelling/emerald-shapeutils) Varios tools for sampling along Shapely shapes
 
-# Header 1
-## Header 2
-### Header 3
+## GUI & plotting
+* [BokehGarden](https://github.com/emerald-geomodelling/BokehGarden) A [Bokeh](https://bokeh.org/) based web application
+framework focused on plotting heavy interactive applications. Additionally, it provides several improved widgets for Bokeh, that can
+be used both within the framework and in a standalone bokeh app, such as an interactive colorbar, file download/upload buttons and an autocomplete input field.
 
-- Bulleted
-- List
+# Contributions to existing open source projects
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/emerald-geomodelling/emerald-geomodelling.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* [scikit-gstat](https://github.com/mmaelicke/scikit-gstat) A scipy-styled analysis module for geostatistics. We have contributed optimizations for processing large datasets.
