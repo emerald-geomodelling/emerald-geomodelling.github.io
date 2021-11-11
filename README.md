@@ -1,4 +1,4 @@
-# Open source projects published by [Emerald Geomodelling](https://www.emerald-geomodelling.com/)
+Open source projects published by [Emerald Geomodelling](https://www.emerald-geomodelling.com/)
 
 ## Data management
 ### Data format parses
