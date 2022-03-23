@@ -1,13 +1,16 @@
 Open source projects published by [Emerald Geomodelling](https://www.emerald-geomodelling.com/)
 
 ## Data management
-### Data format parses
+### Data format parsers
 
 * [libsgfdata](https://github.com/emerald-geomodelling/libsgfdata) - Parser for data from geotechnical field investigations in the data format specified in Report 3:2012E from the Swedish Geotechnical Society, with support for additionally fields / extensions from [Geotech AB](https://static1.squarespace.com/static/565c5cc1e4b05079e4c0fcfb/t/587c984bbf629abac09d265f/1484560476906/6-SWE-CPT-LOG-v5.xx.pdf). This includes TOT and CPT files, used by e.g. [NADAG](http://geo.ngu.no/kart/nadag/). 
 * [libgeosuitesnd](https://github.com/emerald-geomodelling/libgeosuitesnd) - Parser for the [Trimble](https://www.trimble.com/) GeoSuite[tm] SND export format
 * [libgeosuiteprv](https://github.com/emerald-geomodelling/libgeosuiteprv) - Parser for the [Trimble](https://www.trimble.com/) GeoSuite[tm] PRV export format
 * [libaarhusxyz](https://github.com/emerald-geomodelling/libaarhusxyz) Parser for the Aarhus Workbench XYZ format for geophysical data.
+
+### Client libraries
 * [libnadagclient](https://github.com/emerald-geomodelling/libnadagclient) Client library for the geotechnical database at https://geo.ngu.no/kart/nadag/ comforming to the [libsgfdata](https://github.com/emerald-geomodelling/libsgfdata) datamodel.
+* [terrainy](https://github.com/emerald-geomodelling/terrainy) raster download utility library for map imagery and dtm:s. Extends the functionality of e.g. contextily.
 
 ### Database access
 * [PandasIO](https://github.com/emerald-geomodelling/PandasIO) Reimplementation of pandas.DataFrame.to_sql and pandas.read_sql_query with more control over the SQL side of things such as adding support for primary and foreign keys as well serializing extra columns to JSON.
