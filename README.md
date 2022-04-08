@@ -12,11 +12,17 @@ Open source projects published by [Emerald Geomodelling](https://www.emerald-geo
 * [libnadagclient](https://github.com/emerald-geomodelling/libnadagclient) Client library for the geotechnical database at https://geo.ngu.no/kart/nadag/ comforming to the [libsgfdata](https://github.com/emerald-geomodelling/libsgfdata) datamodel.
 * [terrainy](https://github.com/emerald-geomodelling/terrainy) raster download utility library for map imagery and dtm:s. Extends the functionality of e.g. contextily.
 
+### Data export converters
+
+* [gltfshapes](https://github.com/emerald-geomodelling/gltfshapes) is a small library to generate various 3d data
+visualizations in the form of [trimesh](https://trimsh.org/) meshes.
+
 ### Database access
 * [PandasIO](https://github.com/emerald-geomodelling/PandasIO) Reimplementation of pandas.DataFrame.to_sql and pandas.read_sql_query with more control over the SQL side of things such as adding support for primary and foreign keys as well serializing extra columns to JSON.
 
 
 ## Processing libraries
+* [scikit-learn-emeralds](https://github.com/emerald-geomodelling/scikit-learn-emeralds) Collection of tools for numpy and scikit-learn
 * [EmeraldTriangles](https://github.com/emerald-geomodelling/EmeraldTriangles) Transformations and manipulation of 2d triangle meshes, including refining and merging of meshes as well as import and export to various formats.
 * [emerald-shapeutils](https://github.com/emerald-geomodelling/emerald-shapeutils) Varios tools for sampling along Shapely shapes
 
