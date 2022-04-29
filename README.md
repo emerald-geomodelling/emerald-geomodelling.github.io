@@ -22,9 +22,9 @@ visualizations in the form of [trimesh](https://trimsh.org/) meshes.
 
 
 ## Processing libraries
-* [scikit-learn-emeralds](https://github.com/emerald-geomodelling/scikit-learn-emeralds) Collection of tools for numpy and scikit-learn
+* [scikit-learn-emeralds](https://github.com/emerald-geomodelling/scikit-learn-emeralds) Collection of tools for numpy and scikit-learn:  Split a dataset by frequency of data values, plot a confusion matrix that takes probabilities/certainty of predictions into account
 * [EmeraldTriangles](https://github.com/emerald-geomodelling/EmeraldTriangles) Transformations and manipulation of 2d triangle meshes, including refining and merging of meshes as well as import and export to various formats.
-* [emerald-shapeutils](https://github.com/emerald-geomodelling/emerald-shapeutils) Varios tools for sampling along Shapely shapes
+* [emerald-shapeutils](https://github.com/emerald-geomodelling/emerald-shapeutils) Various tools for sampling along Shapely shapes
 
 ## GUI & plotting
 * [BokehGarden](https://github.com/emerald-geomodelling/BokehGarden) A [Bokeh](https://bokeh.org/) based web application
