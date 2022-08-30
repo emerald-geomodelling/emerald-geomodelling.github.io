@@ -32,6 +32,10 @@ visualizations in the form of [trimesh](https://trimsh.org/) meshes.
 framework focused on plotting heavy interactive applications. Additionally, it provides several improved widgets for Bokeh, that can
 be used both within the framework and in a standalone bokeh app, such as an interactive colorbar, file download/upload buttons and an autocomplete input field.
 
-# Contributions to existing open source projects
+## Software development
+
+* [git-snake-release](https://github.com/emerald-geomodelling/git-snake-release) - Recursively find all python dependencies using git URL:s and tag them using the same tag, as well as update setup.py to use said tag.
+
+## Contributions to existing open source projects
 
 * [scikit-gstat](https://github.com/mmaelicke/scikit-gstat) A scipy-styled analysis module for geostatistics. We have contributed optimizations for processing large datasets.
