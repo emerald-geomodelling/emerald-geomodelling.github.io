@@ -31,7 +31,8 @@ visualizations in the form of [trimesh](https://trimsh.org/) meshes.
 * [BokehGarden](https://github.com/emerald-geomodelling/BokehGarden) A [Bokeh](https://bokeh.org/) based web application
 framework focused on plotting heavy interactive applications. Additionally, it provides several improved widgets for Bokeh, that can
 be used both within the framework and in a standalone bokeh app, such as an interactive colorbar, file download/upload buttons and an autocomplete input field.
-
+* [emerald-plotly-react](https://github.com/emerald-geomodelling/emerald-plotly-react) is an extension to the renowned data visualization library, Plotly. Our module is designed to enhance and simplify your data visualization experience by offering additional functionality that seamlessly integrates with Plotly's core features.
+* [emerald-json-editor-react](https://github.com/emerald-geomodelling/emerald-json-editor-react) is a wrapper that around jsoneditor that utilizes react functionality.
 
 ## Python tools
 
