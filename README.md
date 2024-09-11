@@ -23,6 +23,9 @@ visualizations in the form of [trimesh](https://trimsh.org/) meshes.
 
 
 ## Processing libraries
+* [Beryllium](https://emerald-geomodelling.github.io/beryllium/) A processing and inversion toolchain for time domain EM.
+  * [emerald-processing-em](https://github.com/emerald-geomodelling/emerald-processing-em) A processing pipeline for time domain EM.
+  * [SimpleEM](https://github.com/emerald-geomodelling/simpeg/tree/simpleem3) A wrapper on top of SimPEG for inverting measured TEM delivered in XYZ format with a system description in GEX format.
 * [scikit-learn-emeralds](https://github.com/emerald-geomodelling/scikit-learn-emeralds) Collection of tools for numpy and scikit-learn:  Split a dataset by frequency of data values, plot a confusion matrix that takes probabilities/certainty of predictions into account
 * [EmeraldTriangles](https://github.com/emerald-geomodelling/EmeraldTriangles) Transformations and manipulation of 2d triangle meshes, including refining and merging of meshes as well as import and export to various formats.
 * [emerald-shapeutils](https://github.com/emerald-geomodelling/emerald-shapeutils) Various tools for sampling along Shapely shapes
