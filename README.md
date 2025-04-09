@@ -40,6 +40,8 @@ be used both within the framework and in a standalone bokeh app, such as an inte
 ## Python tools
 
 * [Swaggerspect](https://github.com/emerald-geomodelling/swaggerspect) Swaggerspect introspects python classes and functions and generates machine readable descriptions in the [Swagger](https://swagger.io/specification/) and [JSON Schema](https://json-schema.org/) syntaxes.
+* [Poltergust](https://github.com/emerald-geomodelling/poltergust) - task submission and scheduling tool for [luigi](https://github.com/spotify/luigi).
+  * [Poltergust-luigi-utils](https://github.com/emerald-geomodelling/poltergust-luigi-utils) - client library and tools for Poltergust.
 * 
 
 ## Software development
